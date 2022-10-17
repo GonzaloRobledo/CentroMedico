@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="img/icono-centro.png">
+
+    <!--FONT-AWESOME-->
+    <script src="https://kit.fontawesome.com/bb2dada181.js" crossorigin="anonymous"></script>
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--ESTILOS PERSONALIZADOS-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Centro Medico</title>
+</head>
+
+<body>
+    <header class="fondo-ubicacion fondo-header">
+        <!--APERTURA DEL HEADER-->
+        <div class="flex-navegation-logo conteiner-85" data-aos="fade-down" data-aos-duration="1250">
+            <a href="index.html"><i class="fa-sharp fa-solid fa-hospital-user"></i></a>
+            <div class="navegation-conteiner">
+                <nav class="navegation">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="#">Ubicacion</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="burger-menu none">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav class="navegation-responsive">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="ubicacion.html">Ubicacion</a></li>
+            </ul>
+        </nav>
+
+        <div class="flex-titulo-texto">
+            <div class="titulo-texto-header" data-aos="zoom-in" data-aos-duration="1250">
+                <h1>Ubicacion</h1>
+                <p>¡Aca te dejamos nuestra ubicacion y como llegar!</p>
+                <a href="#" class="boton-wpp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>CONTACTANOS</p>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!--CIERRE DEL HEADER-->
+
+    <main class="site-main-ubicacion conteiner-85">
+        <!--APERTURA DEL MAIN-->
+        <div class="mapa-como-llegar">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.7507807767543!2d-58.62857198494235!3d-34.78704878041242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc495864fa5e9%3A0x6c5602d92f84aa!2sAv.%20Jos%C3%A9%20Equiza%206253%2C%20B1758%20Gonz%C3%A1lez%20Cat%C3%A1n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1665974227386!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <!--CIERRE DEL MAIN-->
+
+    <footer class="site-footer">
+        <!--APERTURA DEL FOOTER-->
+        <div class="flex-navegation-logo conteiner-85">
+            <i class="fa-sharp fa-solid fa-hospital-user"></i>
+            <div class="navegation-conteiner">
+                <nav class="navegation">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="#">Ubicacion</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <p>Todos los derechos reservados &copy; 2022</p>
+    </footer>
+    <!--CIERRE DEL FOOTER-->
+
+    <script src="js/javaScript.js"></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
